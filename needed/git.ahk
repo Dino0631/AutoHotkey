@@ -24,3 +24,14 @@ else
 {
 	Send, gitstuff
 }
+::git push::
+WinGetActiveTitle, title
+StringLeft, firstpart, title, 7
+if firstpart = MINGW64
+{
+	Send, git push origin master{Enter}
+}
+else
+{
+	Send, git push
+}
