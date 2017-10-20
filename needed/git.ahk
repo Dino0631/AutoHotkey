@@ -24,6 +24,7 @@ else
 {
 	Send, gitstuff
 }
+Return
 ::git push::
 WinGetActiveTitle, title
 StringLeft, firstpart, title, 7
