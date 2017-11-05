@@ -4,7 +4,7 @@ try:
 	startpath = os.path.curdir
 	n = 0
 	def writeopenallahk(dirname):
-		os.remove('{}/openallahk.txt'.format(dirname))
+		# os.remove('{}/openallahk.txt'.format(dirname))
 		with open('{}/openallahk.bat'.format(dirname), 'w') as f:
 			print(dir(f))
 			f.write(BATcode)

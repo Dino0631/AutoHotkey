@@ -26,7 +26,7 @@ else
 	Send, gitstuffpenis
 }
 Return
-::git push::
+::gitpush::
 WinGetActiveTitle, title
 StringLeft, firstpart, title, 7
 if firstpart = MINGW64

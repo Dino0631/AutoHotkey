@@ -20,11 +20,11 @@ g::
 				Return
 			}
 		}
-		Send, avdv ;put chars to spam here
+		Send, f ;put chars to spam here
 	}
 Return
 
-~^+r::
+~^!r::
 	Reload
 Return
 
@@ -32,6 +32,6 @@ Return
 	ExitApp
 Return
 
-~Esc::
+~^Esc::
 	Suspend
 Return

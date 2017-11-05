@@ -1,4 +1,10 @@
 ﻿#SingleInstance force
 
-PrintScreen::
+; $PrintScreen::
+; Send, #{PrintScreen}
+
+$Insert::
 Send, #{PrintScreen}
+
+$PrintScreen::
+Send, {Insert}
