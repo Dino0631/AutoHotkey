@@ -21,6 +21,7 @@ g::
 			}
 		}
 		Send, f ;put chars to spam here
+		Sleep, 10
 	}
 Return
 
